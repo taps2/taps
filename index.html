@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <title>Texas Aerial Photography Services</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <h1 class="logo"><img src="images/logo5.png" alt="logo" width="101" height="43"> - Texas Aerial Photography Services</h1>
+                <i class="fa fa-bars toggle-menu"></i>
+                <nav>
+                    <ul>
+                        <li><a href="#" data-scrollto="splash">Home</a></li>
+                        <li><a href="#" data-scrollto="overview">About</a></li>
+                        <li><a href="#" data-scrollto="feature">Features</a></li>
+                        <li><a href="#" data-scrollto="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="splash">
+            <div class="container">
+
+<!-- SLIDESHOW START -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .slprev, .slnext,.text {font-size: 11px}
+}
+</style>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/45409.jpeg" style="width:100%">
+  <div class="text">??? city skyline</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/45387.jpeg" style="width:100%">
+  <div class="text">Valley View, Texas property</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/45406.jpeg" style="width:100%">
+  <div class="text">?????? city skyline</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"><</a>
+<a class="next" onclick="plusSlides(1)">></a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<!-- SLIDESHOW END -->
+
+                <a class="btn" href="gallery.html" data-scrollto="overview">View more pictures<i class="fa fa-angle-down"></i></a>
+            </div>
+        </section>
+            <a id="overview"></a>
+        <section class="overview">
+            <div class="container">
+                <div>
+                    
+<i class="fa fa-heart"></i>
+                    <h2>Weddings</h2>
+                    <p>We are able to capture your most special moments with a unique twist.</p>
+                </div>
+                <div>
+                    <i class="fa fa-futbol-o"></i>
+                    <h2>Events</h2>
+                    <p>Have an event you would like professionally filmed? Capture it all in crystal clear 4k video.</p>
+                </div>
+                <div>
+                    <i class="fa fa-truck"></i>
+                    <h2>Businesses</h2>
+                    <p>We can meet all your business needs. Whether you are wanting an HD video of your real estate or pictures of your properties we are the best for the job.</p>
+
+                </div>
+            </div>
+
+
+        </section>
+        
+        <section class ="cta2">
+    <div class ="container">
+        <h2>
+Texas Aerial Photography Services offers the best in aerial photography and video services. With up to 4k resolution, we are able to capture your most special moments with a unique twist. Not only are our services high quality, but also very affordable. 
+</h2>
+</div>
+</section>
+            <a id="feature"></a>
+        <section class="feature greybg">
+            <div class="container">
+                <img src="images/phantom.png" alt="Phantom">
+                <div>
+                    <h1>Features</h1>
+                    <p>With the best equipment you can be sure you are getting the best shots for your money.</p>
+                    <ul>
+                        <li>
+                            <i class="fa fa-video-camera"></i>
+                            <h3>Videography</h3>
+                            <p>Sharp, clean video in up to 4K at 30fps and Full HD 1080p at 120fps for slow motion.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-camera"></i>
+                            <h3>Photography</h3>
+                            <p>Images shot in 12 megapixel Adobe DNG RAW format.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+            <a id="contact"></a>
+        <section class="contact">
+            <div class="container">
+                <h1>Get in touch</h1>
+                <h2>Call or email to get an estimate or inquire more about our services.</h2>
+                <form>
+                    <label class="input"><span>Name</span><input type="text" name="name" required></label>
+                    <label class="input"><span>Email Address</span><input type="email" name="email" required></label>
+                    <label class="message"><span>Message</span><textarea name="message" required></textarea></label>
+                    <label class="submit"><a href="#" class="btn">Send Message<i class="fa fa-angle-right"></i></a></label> 
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="copyright">
+                    <p>940-902-9532 &emsp;<a href="mailto:taps.aerial@aol.com?Subject=TAPS" target="_top">taps.aerial@aol.com</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
