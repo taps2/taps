@@ -164,7 +164,13 @@ header nav ul li a:hover, header nav ul li a.active{
 header .toggle-menu{
     display: none;
 }
+#menubutton1{
+    z-index: 1;
+}
 
+#logotext{
+    z-index: -1;
+}
 .splash{
     background: #9D8F3F;
     height: 100vh;
@@ -485,7 +491,6 @@ footer .social a:hover{
     .splash{
         height: auto;
         padding: 150px 10px 80px 10px;
-        text-align: center;
     }
     .splash .container{
         position: relative;
@@ -551,7 +556,7 @@ footer .social a:hover{
     header nav{
         float: none;
         position: fixed;
-        top: 56px;
+        top: 71px;
         left: -300px;
         bottom: 0;
         width: 100%;
@@ -575,8 +580,8 @@ footer .social a:hover{
     header .toggle-menu{
         display: block;
         color: #fff;
-        position: absolute;
-        right: 10px;
+        position: fixed;
+        right: 15px;
         top: 13px;
         font-size: 28px;
     }
@@ -603,5 +608,18 @@ footer .social a:hover{
     }
     .contact label:first-of-type{
         padding-top: 0;
+    }
+}
+@media (max-width: 446px){
+      header nav{
+        float: none;
+        position: fixed;
+        top: 101px;
+        left: -300px;
+        bottom: 0;
+        width: 100%;
+        max-width: 300px;
+        background: #333;
+        transition: 200ms;
     }
 }
