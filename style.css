@@ -144,7 +144,7 @@ header nav{
     float: right;
 }
 header nav ul{
-    padding: 0;
+    padding: 13px;
     margin: 0;
 }
 header nav ul li{
